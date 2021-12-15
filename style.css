@@ -1,0 +1,91 @@
+body {
+    background-color: white;
+    background-image: url('./starter-code/images/img.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  margin-top: 0cm;
+  background-position: 20px;
+
+}
+form {
+    background-color: #fa5959;
+    margin: 0cm 55cm 10cm 10cm;
+    margin-bottom: 50cm;
+    border-radius: 20px;
+    padding: 30px ;
+    height: 7cm;
+    width: 17cm;
+    color: white;
+    font-size: 16px;
+    font-family: 'Courier Prime', monospace;
+    font-weight: 500 700;
+    f
+
+}
+.container {
+    margin-top: 10cm 10cm 10cm 10cm;
+   height: 27cm;
+}
+#first {
+    color: red;
+    padding-right: 5cm;
+    padding-left: 10px;
+}
+#second {
+    color: red;
+    padding-right: 4.6cm;
+    padding-left: 10px;
+}
+#third {
+    color: red;
+    padding-right: 2.95cm;
+    padding-left: 10px;
+}
+#last {
+    color: red;
+    padding-right: 0cm;
+    padding-left: 10px;
+}
+#your-name {
+padding: 0px 10px 10px 0px 
+}
+#your-email {
+    padding: 0px 10px 10px 0px ;
+}
+#email {
+    padding: 7px 5px 0px 0px;
+}
+input {
+    border: none;
+    outline-color: red;
+    mask-border-outset: red;
+    padding: 5px;
+}
+button {
+    background-color: #fa5959;
+    border-radius: 10px;
+    padding: 10px 50px 10px 50px;
+    border-color: white;
+    color: white;
+}
+#bttn {
+    padding-top: 20px;
+    padding-bottom: ;
+    padding-right: 14cm;
+    padding-left: 6.5cm;
+    margin-right: 5cm;
+}
+
+#agree {
+    padding: 20px 40px 20px 4.3cm;
+    
+}
+
+.error-message {
+    padding-right: 10cm;
+}
+#tggg {
+    padding-left: 4cm;
+}
+

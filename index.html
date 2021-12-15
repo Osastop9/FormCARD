@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&family=Red+Hat+Display:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <form>
+         <div id="your-name"> Your Name <span id="first">*</span><input type="text" id="name" required size="40"></div>
+           <div id="your-email">Your Email <span id="second">*</span> <input type="email" id="email" required size="40"></div>
+            <div id="activ-token">Activation Token <span id="third">*</span> <input type="password" id="password" required size="40"></div>
+            <div id="agree">You agree to <a href="#">privacy policy</a><span id="last">*</span><input type="checkbox" required></div>
+            <span></span><div id="tggg"><input type="text" size="40"></div>
+            <div id="bttn"><button type="submit">Submit</button></div>
+        </form>  
+    </div>
+</body>
+<script>
+    function submit () {
+    let input = document.querySelector(#name).value;
+    console.log ("input", input);}
+
+let form = document.querySelector('form');
+form.addEventListener("submit" submit);
+</script>
+<script>
+function ValidateEmail(inputText) {
+    const mail_format = /^w+([.-]?w+)*@w+([.-]?w+)*(.w{2,3})+$/;
+    if(inputText.value.match(inputText))
+    { alert(“Yeah! a valid email!”);
+        document.form1.text1.focus();
+        return true;
+
+}
+Else
+
+{ alert(“Sorry! an invalid email!”);
+    document.form1.text1.focus();
+    return false;
+
+}
+
+}
+}
+</script>
+</html>
